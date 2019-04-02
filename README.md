@@ -1,5 +1,6 @@
 ## Evaluation of Medical Information Retrieval
-___________________________________________
+
+
 
 Based on a challenge [proposed by CLEF eHealth in 2015 (task 2):](https://sites.google.com/site/clefehealth2015/task-2)
 
