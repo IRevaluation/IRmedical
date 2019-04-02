@@ -1,4 +1,4 @@
-Evaluation of Medical Information Retrieval
+## Evaluation of Medical Information Retrieval
 ___________________________________________
 
 Based on a challenge [proposed by CLEF eHealth in 2015 (task 2):](https://sites.google.com/site/clefehealth2015/task-2)
@@ -29,6 +29,8 @@ Elasticsearch version 5.0 or later can be obtained from https://www.elastic.co/g
     
 The Java project should be built and run. A provided graphical user interface simplifies the running of evaluations by providing three functions - index/reindex, run queries and run TREC_EVAL. Documents must first be indexed before running queries, and query results are required to run TREC_EVAL. Query results files for all similarity models evaluated are provided if only TREC_EVAL is required. 
 
+![alt text](https://github.com/IRevaluation/IRmedical/blob/master/GUI_Images/UI_Win10.png "Run")
+
 This user interface will request paths to two directories:
 
 1. Document Directory. This directory should contain two folders: 'documents' and 'qrels'. The project will automatically search for these files. The TREC_EVAL executable should also be placed in this directory. The typical structure of this directory is shown below, where the 'evaluations' directory is generated automatically and contains the TREC_EVAL result files. The top-level text files contain query results and are generated automatically upon running queries. Evaluation results can be viewed directly through the 'Analysis' tab of the provided user interface.
@@ -48,6 +50,8 @@ This user interface will request paths to two directories:
         |--lmjelenikmercer.txt
            
 2. Path to Query File. A direct path to the text file containing queries to be used by TREC_EVAL. May be anywhere on file system.
+
+![alt text](https://github.com/IRevaluation/IRmedical/blob/master/GUI_Images/UI_Analyze_Win10.png "Analyze")
 
 ----------------------
 Explanation of Results
