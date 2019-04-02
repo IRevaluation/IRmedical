@@ -61,6 +61,7 @@ An explanation of the results obtained can be found in the readme.md on the (TRE
         Rel_ret:     (relevant and retrieved)
    These should be self-explanatory.  All values are totals over all
    queries being evaluated.
+   
 2. Interpolated Recall - Precision Averages:
         at 0.00
         at 0.10
@@ -75,6 +76,7 @@ An explanation of the results obtained can be found in the readme.md on the (TRE
    taken to be MAXIMUM of precision at all recall points >= 0.10.
    Values are averaged over all queries (for each of the 11 recall levels).
    These values are used for Recall-Precision graphs.
+   
 3. Average precision (non-interpolated) over all rel docs
    The precision is calculated after each relevant doc is retrieved.
    If a relevant doc is not retrieved, the precision is 0.0.
@@ -82,6 +84,7 @@ An explanation of the results obtained can be found in the readme.md on the (TRE
    for the performance of a query.  Conceptually this is the area
    underneath the recall-precision graph for the query.
    The values are then averaged over all queries.
+   
 4. Precision:
        at 5    docs
        at 10   docs
@@ -91,6 +94,7 @@ An explanation of the results obtained can be found in the readme.md on the (TRE
    documents (whether relevant or nonrelevant) have been retrieved.
    Values averaged over all queries.  If X docs were not retrieved
    for a query, then all missing docs are assumed to be non-relevant.
+   
 5. R-Precision (precision after R (= num_rel for a query) docs retrieved):
    New measure, intended mainly to be used for routing environments.
    Measures precision (or recall, they're the same) after R docs
