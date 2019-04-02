@@ -1,7 +1,7 @@
 Evaluation of Medical Information Retrieval
 ___________________________________________
 
-Based on a challenge proposed by CLEF eHealth in 2015 (task 2)
+Based on a challenge [proposed by CLEF eHealth in 2015 (task 2):](https://sites.google.com/site/clefehealth2015/task-2)
 
 "The 2015 CLEF eHealth Task 2 aims to evaluate the effectiveness of information retrieval systems when searching for health content on the web, with the objective to foster research and development of search engines tailored to health information seeking. 
 
@@ -12,11 +12,11 @@ In this year’s task, we explore queries that differ from the previous years ta
 In addition to changes in query types, this year’s lab will introduce changes in the evaluation settings, where, to judge the effectiveness of a retrieval system, we will consider also the readability of the retrieved medical content, along with the common topical assessments of relevance. Also, the multilingual element added to the task last year will be further developed. This year, parallel queries in Arabic, Czech, French, German, Farsi and Portuguese will be offered, as well as baseline machine translations."
 [https://sites.google.com/site/clefehealth2015/task-2]
 
-This project utilizes two external tools - Elasticsearch, an open source RESTful search technology [https://www.elastic.co/products/elasticsearch] and TREC_EVAL, the standard tool used by the TREC community for evaluating retrieval systems given search engine results and a set of human generated revelance scores.
+This project utilizes two external tools - [Elasticsearch](https://www.elastic.co/products/elasticsearch), an open source RESTful search technology [https://www.elastic.co/products/elasticsearch] and [TREC_EVAL](https://trec.nist.gov/trec_eval/), the standard tool used by the TREC community for evaluating retrieval systems given search engine results and a set of human generated revelance scores.
 
-Requires Elasticsearch version 5.0 or later (developed on version 6.4.2) and TREC_EVAL Windows (developed on Windows version 3).
+Requires Elasticsearch version 5.0 or later (developed on version [6.4.2](https://www.elastic.co/downloads/past-releases/elasticsearch-6-4-2)) and TREC_EVAL Windows (developed on Windows version 3).
 
-Two sets of external resources, both provided by CLEF eHealth, were used for the purposes of this study - a collection of 1,104,337 medical and health related documents [documents obtainable from CLEF eHealth: http://catalog.elra.info/en-us/repository/browse/ELRA-E0043/] and a dataset containing query files and query relevance (qrel) files [dataset obtainable from CLEF eHealth on Github: https://github.com/CLEFeHealth/CLEFeHealth2015Task2].
+Two sets of external resources, both provided by CLEF eHealth, were used for the purposes of this study - a [collection of 1,104,337 medical and health related documents](http://catalog.elra.info/en-us/repository/browse/ELRA-E0043/) [documents obtainable from CLEF eHealth: http://catalog.elra.info/en-us/repository/browse/ELRA-E0043/] and a [dataset containing query files and query relevance (qrel) files](https://github.com/CLEFeHealth/CLEFeHealth2015Task2) [dataset obtainable from CLEF eHealth on Github: https://github.com/CLEFeHealth/CLEFeHealth2015Task2].
 These documents, qrels and query files are optional - the toolset provided by this project allows the use of any custom document collection and dataset.
 
 -------------------
@@ -53,7 +53,7 @@ This user interface will request paths to two directories:
 Explanation of Results
 ______________________
 
-An explanation of the results obtained can be found in the readme.md on the TREC_EVAL github page [https://github.com/CLEFeHealth/CLEFeHealth2015Task2]:
+An explanation of the results obtained can be found in the readme.md on the (TREC_EVAL github page)[https://github.com/CLEFeHealth/CLEFeHealth2015Task2]:
 
 "1. Total number of documents over all queries
         Retrieved:
