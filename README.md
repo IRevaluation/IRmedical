@@ -11,6 +11,7 @@ This task is a continuation of the previous CLEF eHealth Task 3 that ran in 2013
 In this year’s task, we explore queries that differ from the previous years tasks. This year’s queries in fact aim to mimic queries of lay people (ie. not medical expert) that are confronted with a sign, symptom or condition and attempt to find out more about the condition they may have. For example, when confronted with signs of jaundice, non experts may use queries like "white part of eye turned green" to search for information that allow them to diagnose themselves or better understand their health conditions. These queries are often circumlocutory in nature, where a long, ambiguous wording is used in place of the actual name to refer to a condition or disease. Recent research has shown that these queries are used by health consumers and that current web search engines fail to effectively support these queries (Zuccon et al., Staton et al.)
 
 In addition to changes in query types, this year’s lab will introduce changes in the evaluation settings, where, to judge the effectiveness of a retrieval system, we will consider also the readability of the retrieved medical content, along with the common topical assessments of relevance. Also, the multilingual element added to the task last year will be further developed. This year, parallel queries in Arabic, Czech, French, German, Farsi and Portuguese will be offered, as well as baseline machine translations."
+
 [https://sites.google.com/site/clefehealth2015/task-2]
 
 ___________________
