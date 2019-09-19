@@ -13,6 +13,8 @@ In this year’s task, we explore queries that differ from the previous years ta
 In addition to changes in query types, this year’s lab will introduce changes in the evaluation settings, where, to judge the effectiveness of a retrieval system, we will consider also the readability of the retrieved medical content, along with the common topical assessments of relevance. Also, the multilingual element added to the task last year will be further developed. This year, parallel queries in Arabic, Czech, French, German, Farsi and Portuguese will be offered, as well as baseline machine translations."
 [https://sites.google.com/site/clefehealth2015/task-2]
 
+___________________
+
 This project utilizes two external tools - [Elasticsearch](https://www.elastic.co/products/elasticsearch), an open source RESTful search technology [https://www.elastic.co/products/elasticsearch] and [TREC_EVAL](https://trec.nist.gov/trec_eval/), the standard tool used by the TREC community for evaluating retrieval systems given search engine results and a set of human generated revelance scores.
 
 Requires Elasticsearch version 5.0 or later (developed on version [6.4.2](https://www.elastic.co/downloads/past-releases/elasticsearch-6-4-2)) and TREC_EVAL Windows (developed on Windows version 3).
