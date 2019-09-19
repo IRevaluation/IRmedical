@@ -10,7 +10,7 @@ import java.net.MalformedURLException;
 import org.junit.Test;
 
 
-public class UnitTest {
+public class unitTest {
 	
 
 	@Test
